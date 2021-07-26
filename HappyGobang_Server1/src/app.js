@@ -32,7 +32,7 @@ class StartServer {
     this.heartbeat1();//每隔1分钟向在线客户端发送随机事件
   }
 
-  //每隔1分钟向在线客户端发送随机事件
+  //每隔1分钟向在线客户端发送随机事件。
   heartbeat1() {
     setTimeout(() => {
       let onlineUserData = fileAction.getContent('onlineId'); //读取在线玩家名单
