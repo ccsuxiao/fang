@@ -13,7 +13,7 @@ class StartServer {
     this.app = express();// 启动express框架
     expressWs(this.app); // 使得app支持websocket协议
     this.openCORS();
-    this.setRouter();
+    this.setRouter();//啦啦啦啦啦
     this.listenPort();//设置服务端的监听端口
   }
 
