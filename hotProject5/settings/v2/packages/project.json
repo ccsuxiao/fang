@@ -1,0 +1,20 @@
+{
+  "__version__": "1.0.4",
+  "layer": [
+    {
+      "name": "canvas_19",
+      "value": 524288
+    }
+  ],
+  "fbx": {
+    "legacyFbxImporter": {
+      "visible": true
+    }
+  },
+  "general": {
+    "designResolution": {
+      "fitHeight": true
+    }
+  },
+  "custom_joint_texture_layouts": []
+}
